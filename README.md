@@ -18,3 +18,14 @@ The charts below shows the reduction in the error with the three features used a
 
 ![Features](/images/features.png)
 ![Correlation Matrix 2](/images/corr_matrix2.png)
+
+Using the selected features, the 2017 data was then split into training and testing sets. A linear regression model was then created using the training set. The model was then tested using the 2017 testing data. The test data predictions resulted in a r-squared value of .557 and a root mean squared error 0.029%.
+
+For comaprison, a model was created using all of the players stats as input varaibles. That models test data yeilded a  r-squared value of .532 and a root mean squared error 0.030%.
+
+The model with the limited selected input variables proved to be a better model with a higher testing set r-squared value and a lower root mean squared error.
+
+The final step was to input the 2018 early season data into the model to obtain the prediction results. The final predictions had an average percent error of 10.59% with the range of percent errors from 0.01% - 63.09%.
+
+While the average error being within about 10% is pretty good, the wide range of errors can possibly be attribed to the fact that no two seasons are alike. A players previous season is not necessarlily an indicator for future performance. There are several factors that can change between seasons and throughout the course of a season. Some of these factors include improved performance, injury, and off field issues/distractions.
+A model accounting for offseason and inseason training activities in addition to the previous season data may lead to a more accurate prediction.
