@@ -15,5 +15,6 @@ The next step was to check for relationships between the player stats that would
 A forward sequential feature selector was then used to find the best combination of input varibles. The combinations were rated based on mean squared error. The best combination of input variables found was At Bats, Strike Out Percentage, and Current Batting Average.
 
 The charts below shows the reduction in the error with the three features used as inputs and the corresponding correlation matrix.
+
 ![Features](/images/features.png)
 ![Correlation Matrix 2](/images/corr_matrix2.png)
