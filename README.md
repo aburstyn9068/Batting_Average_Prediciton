@@ -1,5 +1,5 @@
 # Batting_Average_Prediciton
-This respository contains a prediction model to calculate the end of season batting averages given a players stats from the begging (March and April) of the season.
+This respository contains a prediction model to calculate the end of season batting averages given a player's stats from the beginning of the season (March and April).
 
 My approach to make the preditcion model was to create a linear regession model using a prior year's early season to post season data comparison. The model was created using Python code in a Jupyter Notebook.
 
